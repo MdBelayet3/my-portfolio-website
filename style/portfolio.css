@@ -16,6 +16,7 @@ body {
     font-size: 18px;
     font-weight: 400;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
@@ -202,6 +203,31 @@ nav li {
     font-size: 30px;
     font-weight: 700;
 }
-.resume-btn{
+
+.resume-btn {
     text-align: center;
+}
+
+/* footer section style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 130px;
+    gap: 100px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.contact-info input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background:#FFF;
+    border: none;
+    padding: 20px 30px;
+    width: 100%;
 }
